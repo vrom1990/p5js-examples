@@ -1,4 +1,4 @@
-let cr = color('#ffffff');;
+let cr = '#ffffff'
 
 function setup() {
   createCanvas(710, 400);
@@ -15,22 +15,30 @@ function draw() {
 
 function keyPressed() {
   if (keyCode === 49) {
-   cr = color('#CC6600');
+   cr = 'red';
   }
   if (keyCode === 49) {
-   cr = color('#CC6600');
+   cr = 'blue';
+	}	
   if (keyCode === 50) {
-   cr = color('#CC6600');
+   cr = color('green');
+	}
   if (keyCode === 51) {
-   cr = color('#CC6600');
-  if (keyCode === 52) {
-   cr = color('#CC6600');
+   cr = color('yellow');
+  }
+		if (keyCode === 52) {
+   cr = color('Fuchsia');
+	}
   if (keyCode === 53) {
    cr = color('#CC6600');
+	}
   if (keyCode === 54) {
    cr = color('#CC6600');
+	}
   if (keyCode === 55) {
    cr = color('#CC6600');
+	}
   if (keyCode === 56) {
    cr = color('#CC6600');
+ }
 }
