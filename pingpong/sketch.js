@@ -11,7 +11,7 @@ var started = false;
 var score = 0;
 
 function setup() {
-	createCanvas(windowWidth-100, windowHeight-100);
+	createCanvas(windowWidth-20, windowHeight-20);
 }
 
 function windowResized() {
