@@ -30,15 +30,18 @@ function keyPressed() {
    cr = color('Fuchsia');
 	}
   if (keyCode === 53) {
-   cr = color('#CC6600');
+   cr = color('DarkGoldenRod');
 	}
   if (keyCode === 54) {
-   cr = color('#CC6600');
+   cr = color('GreenYellow');
 	}
   if (keyCode === 55) {
    cr = color('#CC6600');
 	}
   if (keyCode === 56) {
-   cr = color('#CC6600');
+   cr = color('Lime');
+ }
+  if (keyCode === 57) {
+   cr = 102;
  }
 }
