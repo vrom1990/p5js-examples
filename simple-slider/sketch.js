@@ -17,7 +17,6 @@ function draw(){
  
 function mouseReleased(){
  
-    //только клик внутри изображения сменяет его
     if(mouseX>50 && mouseY>50){
           index = index + 1;
           if (index == img.length){
