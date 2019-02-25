@@ -11,7 +11,7 @@ var started = false;
 var score = 0;
 
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+	createCanvas(windowWidth-10, windowHeight-10);
 }
 
 function draw() {
