@@ -1,4 +1,4 @@
-let cr = 255;
+let cr = color('#ffffff');;
 
 function setup() {
   createCanvas(710, 400);
