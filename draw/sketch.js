@@ -14,8 +14,8 @@ function draw() {
 }
 
 function keyPressed() {
-  if (keyCode === 49) {
-   cr = 'red';
+  if (keyCode === 48) {
+   background(102);
   }
   if (keyCode === 49) {
    cr = 'blue';
