@@ -14,6 +14,10 @@ function setup() {
 	createCanvas(windowWidth-10, windowHeight-10);
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 function draw() {
   background(0);
 	xBall += xBallChange;
