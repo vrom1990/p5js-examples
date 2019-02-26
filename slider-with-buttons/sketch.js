@@ -11,10 +11,10 @@ function preload(){
 function setup(){
   createCanvas(400,400);
   button1 = createButton('<<');
-  button1.position(200, 0);
+  button1.position(200, 600);
   button1.mousePressed(Prev);
   button2 = createButton('>>');
-  button2.position(250, 0);
+  button2.position(250, 600);
   button2.mousePressed(Next);
 }
  
