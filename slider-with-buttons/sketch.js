@@ -21,7 +21,16 @@ function setup(){
 function draw(){ 
   image(img[index],50,50,width,height);
 }
- 
+
+function keyPressed() {
+
+  if (keyCode === 49) {
+   index = index - 1;
+	}	
+  if (keyCode === 50) {
+   index = index + 1;
+	}
+}
 function Prev(){
 	if (index === 0){
 		index = 2;
