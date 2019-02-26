@@ -19,7 +19,7 @@ function setup(){
   button1.position(160, 420);
   button1.mousePressed(Prev);
   button2 = createButton('>>');
-  button2.position(160, 420);
+  button2.position(210, 420);
   button2.mousePressed(Next);
   textSize(12);
   textFont(OpenSans);
