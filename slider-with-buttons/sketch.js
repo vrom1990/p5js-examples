@@ -16,10 +16,10 @@ function preload(){
 function setup(){
   createCanvas(400,400);
 	button1 = createButton('<<');
-  button1.position(200, 420);
+  button1.position(160, 420);
   button1.mousePressed(Prev);
 	button2 = createButton('>>');
-  button2.position(250, 420);
+  button2.position(160, 420);
   button2.mousePressed(Next);
 	textSize(12);
 	textFont(OpenSans);
