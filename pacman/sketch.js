@@ -7,7 +7,7 @@ var gui;
 
 function setup() {
 
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight-20);
 
   // Create the GUI
   sliderRange(0, 90, 1);
