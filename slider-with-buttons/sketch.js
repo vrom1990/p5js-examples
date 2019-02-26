@@ -27,6 +27,7 @@ function setup(){
 }
  
 function draw(){ 
+background(255);
   image(img[index],0,0,width-50,height-50);
 	fill(0);
   text(txt[index], 200, 375);
