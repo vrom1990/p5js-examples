@@ -132,7 +132,7 @@ function draw() {
 	text("O\nF", 20, 270);
 	text("P\nE\nO\nP\nL\nE", 20, 370);
 	pop();
-  text("NUMBER OF CUPS PER WEEK", windowWidth/2, windowHeight-30);
+  text("Количество чашек в неделю", windowWidth/2, windowHeight-30);
 
   
   stroke(0);
@@ -151,11 +151,11 @@ function draw() {
   //key
   noStroke();
   fill(0);
-  text("= Cream", windowWidth-170, 35);
-  text("= Black", windowWidth-170, 65);
-  text("= Iced", windowWidth-170, 95);
-  text("= Frozen", windowWidth-170, 125);
-  text("= Hot", windowWidth-170, 155);
+  text("= Сливки", windowWidth-170, 35);
+  text("= Чёрный", windowWidth-170, 65);
+  text("= Охлаждённый", windowWidth-170, 95);
+  text("= Мороженное", windowWidth-170, 125);
+  text("= Горячий", windowWidth-170, 155);
   
   noStroke();
   for(var i=0;i<data.length; i++){
@@ -181,7 +181,7 @@ function draw() {
      	 if( mouseX>i && mouseX< i+60) {	
 				 		drawFrame();
 				  	image( creamcup, 130, 25);
-			 			text(data[k].cream +" people use cream in their coffe "+ (k+1) + " times per week", 250, 65 );
+			 			text(data[k].cream +" людей добавляли сливки в кофе "+ (k+1) + " раз в неделю", 250, 65 );
 			 }
 		 }
   }
@@ -190,7 +190,7 @@ function draw() {
      	 if( mouseX>i && mouseX< i+60) {
 				 		drawFrame();
 				 		image( blackcup, 130, 25);
-			 			text(data[k].black +" people drink black coffee "+ (k+1) + " times per week", 250, 65 );
+			 			text(data[k].black +" люди пили чёрный кофе "+ (k+1) + " ", 250, 65 );
 			 }
 		 }
   }
@@ -199,7 +199,7 @@ function draw() {
      	 if( mouseX>i && mouseX< i+60) {
 				 		drawFrame();
 				 		image(icedcup, 140, 10);
-			 			text(data[k].iced +" people their coffee iced "+ (k+1) + " times per week", 250, 65 );
+			 			text(data[k].iced +" люди пили охлаждённый кофе "+ (k+1) + " раз в неделю", 250, 65 );
 			 }
 		 }
   }
@@ -208,7 +208,7 @@ function draw() {
      	 if( mouseX>i && mouseX< i+60) {
 				 		drawFrame();
 				 		image(frozencup, 140, 10);
-			 			text(data[k].frozen +" people drink their coffee frozen "+ (k+1) + " times per week", 250, 65 );
+			 			text(data[k].frozen +" людей добавляли мороженное "+ (k+1) + " раз в неделю", 250, 65 );
 			 }
 		 }
   }
@@ -217,7 +217,7 @@ function draw() {
      	 if( mouseX>i && mouseX< i+60) {
 				 		drawFrame();
 				 		image(hotcup, 130, 0);
-			 			text(data[k].hot +" people drink their coffee hot "+ (k+1) + " times per week", 250, 65 );
+			 			text(data[k].hot +" людей пили кофе горячим "+ (k+1) + " раз в неделю", 250, 65 );
 			 }
 		 }
   }
