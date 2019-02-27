@@ -128,9 +128,8 @@ function draw() {
   noStroke();
 	push();
 	textAlign(LEFT, CENTER);
-	text("N\nU\nM\nB\nE\nR", 20, 180);
-	text("O\nF", 20, 270);
-	text("P\nE\nO\nP\nL\nE", 20, 370);
+	text("К\nО\nЛ\nИ\nЧ\nЕ\nС\nТ\nВ\nО", 20, 180);
+	text("Л\nЮ\nД\nЕ\nЙ", 20, 340);
 	pop();
   text("Количество чашек в неделю", windowWidth/2, windowHeight-30);
 
